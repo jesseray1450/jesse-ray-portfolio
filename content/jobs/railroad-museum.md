@@ -1,7 +1,7 @@
 ---
 jobTitle: "Tour Guide & Maintenance"
 company: "Railroad Museum"
-location: "South Dakota"
+location: "Currie, Minnesota"
 startDate: "2020"
 endDate: "2022"
 summary: "Led tours for visitors and assisted with park maintenance and facility upkeep."
