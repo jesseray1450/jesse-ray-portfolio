@@ -21,10 +21,13 @@ function App() {
       <div className="max-w-4xl mx-auto space-y-12">
         <div className="text-center space-y-4">
           <h1 className="text-5xl font-bold">
-            Jesse Ray
+            Jesse Michael Ray
           </h1>
           <p className="text-lg text-muted-foreground">
             Computer Science & Computer Game Design Student · Madison, SD
+          </p>
+          <p className="text-sm text-muted-foreground">
+            Madison, SD · (507) 626-5550 · jesseray1450@gmail.com · github.com/jesseray1450
           </p>
           <Separator className="mt-8" />
         </div>
