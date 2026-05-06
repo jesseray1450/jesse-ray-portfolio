@@ -1,8 +1,8 @@
 ---
-school: University of Texas at Austin
-summary: B.S. Computer Science — GPA 3.7 | Dean's List 3 semesters
-startDate: 2017-09-01
-endDate: 2021-05-15
+school: Dakota State University
+summary: B.S. Computer Science | B.S. Computer Game Design
+startDate: 08-12-2021
+endDate: 05-06-2026
 tags:
   [
     "Data Structures",
@@ -13,6 +13,6 @@ tags:
   ]
 ---
 
-Relevant coursework: Data Structures & Algorithms, Web Systems, Database Management, Operating Systems, Human-Computer Interaction.
+Relevant coursework: Data Structures & Algorithms, Web Systems, Level Design, Operating Systems, Programming Tool Development.
 
-Capstone project: Built a collaborative task management web app with real-time sync using Firebase and React. Presented to a panel of industry engineers and received highest marks in the cohort.
+Capstone project: Built a remake of the game Heratic with a group of Classmates.
