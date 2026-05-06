@@ -1,18 +1,21 @@
 ---
-school: Dakota State University
-summary: B.S. Computer Science | B.S. Computer Game Design
-startDate: 08-12-2021
-endDate: 05-06-2026
+school: "Dakota State University"
+summary: "B.S. Computer Science and B.S. Computer Game Design. Expected graduation: May 2026."
+startDate: "2021"
+endDate: "2026"
 tags:
   [
-    "Data Structures",
-    "Algorithms",
-    "Web Development",
-    "Databases",
-    "Operating Systems",
+    "Computer Science",
+    "Computer Game Design",
+    "Unity",
+    "Programming",
+    "Game Development",
   ]
 ---
 
-Relevant coursework: Data Structures & Algorithms, Web Systems, Level Design, Operating Systems, Programming Tool Development.
+Relevant coursework includes Data Structures & Algorithms, Web Systems, Level Design, Operating Systems, and Programming Tool Development.
 
-Capstone project: Built a remake of the game Heratic with a group of Classmates.
+Activities:
+- President, DSU Games Club
+- Member, DSU Esports Team throughout college
+- Dean's List, Fall 2025
