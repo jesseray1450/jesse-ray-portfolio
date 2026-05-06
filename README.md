@@ -1,4 +1,4 @@
-# Alex Rivera — Developer Portfolio
+# Jesse Ray — Developer Portfolio
 
 A personal portfolio and resume site for employers to review work history, projects, and technical writing. Built with TanStack Start and deployed on Netlify.
 
