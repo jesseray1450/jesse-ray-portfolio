@@ -6,7 +6,6 @@ const navLinks = [
   { to: '/', label: 'Home' },
   { to: '/projects', label: 'Projects' },
   { to: '/resume', label: 'Resume' },
-  { to: '/blog', label: 'Blog' },
   { to: '/contact', label: 'Contact' },
 ]
 
@@ -17,7 +16,7 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur">
       <div className="max-w-5xl mx-auto px-4 h-14 flex items-center justify-between">
         <Link to="/" className="font-semibold text-lg tracking-tight">
-          Alex Rivera
+          Jesse Ray
         </Link>
 
         {/* Desktop nav */}
