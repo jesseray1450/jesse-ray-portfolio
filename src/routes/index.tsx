@@ -9,8 +9,9 @@ export const Route = createFileRoute('/')({
 })
 
 const skills = [
-  'TypeScript', 'React', 'Node.js', 'Next.js', 'TanStack',
-  'PostgreSQL', 'Tailwind CSS', 'Vite', 'REST APIs', 'Git',
+  'C#', 'C', 'Python', 'Unity', 'Unreal Engine',
+  'Visual Studio', 'Git', 'Gameplay Programming',
+  'Enemy AI', 'Photoshop', 'Illustrator', 'Maya',
 ]
 
 function Home() {
@@ -27,16 +28,17 @@ function Home() {
           <div className="flex-1 space-y-5">
             <div className="space-y-2">
               <p className="text-sm font-medium text-muted-foreground uppercase tracking-widest">
-                Software Developer
+                Game Developer and Computer Scientist 
               </p>
               <h1 className="text-5xl font-bold leading-tight">
-                Hi, I'm Alex Rivera
+                Hi, I'm Jesse Ray
               </h1>
             </div>
             <p className="text-lg text-muted-foreground leading-relaxed max-w-lg">
-              I build fast, accessible web applications with a focus on clean
-              architecture and great user experience. Currently open to full-time
-              roles and freelance opportunities.
+              I am a Computer Science and Computer Game Design student at Dakota State University graduating in May 2026.
+              I have experience with Unity, C#, C, Python, gameplay systems, and enemy AI.
+              I contributed to the released Steam title Critter Gang and am interested in entry-level roles
+              in game development, software development, QA, or IT.
             </p>
             <div className="flex flex-wrap gap-3 pt-2">
               <Link
@@ -55,7 +57,7 @@ function Home() {
             </div>
             <div className="flex items-center gap-4 pt-1">
               <a
-                href="https://github.com/your-username"
+                href="https://github.com/jesseray1450"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-foreground transition-colors"
@@ -64,7 +66,7 @@ function Home() {
                 <Github size={20} />
               </a>
               <a
-                href="https://linkedin.com/in/your-username"
+                href="https://www.linkedin.com/in/jesse-ray-5b945b3b9/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-foreground transition-colors"
@@ -73,7 +75,7 @@ function Home() {
                 <Linkedin size={20} />
               </a>
               <a
-                href="mailto:alex@example.com"
+                href="mailto:jesseray1450@gmail.com"
                 className="text-muted-foreground hover:text-foreground transition-colors"
                 aria-label="Email"
               >
@@ -84,7 +86,7 @@ function Home() {
           <div className="shrink-0">
             <img
               src="/headshot-on-white.jpg"
-              alt="Alex Rivera"
+              alt="Jesse Ray "
               className="w-52 h-60 rounded-2xl object-cover shadow-lg"
             />
           </div>
@@ -214,7 +216,7 @@ function Home() {
       <footer className="border-t border-border">
         <div className="max-w-5xl mx-auto px-4 py-10 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Alex Rivera. Open to opportunities.
+            © {new Date().getFullYear()} Jesse Ray. Open to opportunities.
           </p>
           <Link
             to="/contact"
