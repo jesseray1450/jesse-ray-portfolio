@@ -21,10 +21,10 @@ function App() {
       <div className="max-w-4xl mx-auto space-y-12">
         <div className="text-center space-y-4">
           <h1 className="text-5xl font-bold">
-            Alex Rivera
+            Jesse Ray
           </h1>
           <p className="text-lg text-muted-foreground">
-            Senior Frontend Developer · San Francisco, CA
+            Computer Science & Computer Game Design Student · Madison, SD
           </p>
           <Separator className="mt-8" />
         </div>
@@ -39,12 +39,10 @@ function App() {
           <CardContent>
             <div className="flex items-center gap-8">
               <p className="flex-1 leading-relaxed">
-                Frontend developer with 4+ years of experience building
-                scalable web applications. I specialise in React, TypeScript,
-                and modern tooling, with a track record of improving performance,
-                accessibility, and developer experience. I enjoy working closely
-                with product and design teams and care deeply about shipping
-                software that is both fast and a pleasure to use.
+                Computer Science and Computer Game Design student at Dakota State University
+                graduating May 2026. I have experience with Unity, C#, C, Python, gameplay systems, and enemy AI.
+                I contributed to the released Steam title Critter Gang by programming attack patterns for the first boss.
+                I am interested in entry-level opportunities in software development, game development, QA, or IT.
               </p>
               <img
                 src="/headshot-on-white.jpg"
