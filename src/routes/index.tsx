@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from '@tanstack/react-router'
-import { allProjects, allBlogs } from 'content-collections'
+import { allProjects } from 'content-collections'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { ArrowRight, Github, Linkedin, Mail, ExternalLink } from 'lucide-react'
@@ -16,9 +16,7 @@ const skills = [
 
 function Home() {
   const featuredProjects = allProjects.slice(0, 3)
-  const recentPosts = [...allBlogs]
-    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
-    .slice(0, 2)
+  
 
   return (
     <div className="min-h-screen">
@@ -168,51 +166,7 @@ function Home() {
         </div>
       </section>
 
-      {/* Recent Blog Posts */}
-      {recentPosts.length > 0 && (
-        <section className="border-t border-border bg-muted/20">
-          <div className="max-w-5xl mx-auto px-4 py-14">
-            <div className="flex items-center justify-between mb-8">
-              <h2 className="text-2xl font-semibold">Recent Writing</h2>
-              <Link
-                to="/blog"
-                className="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors"
-              >
-                All posts
-                <ArrowRight size={14} />
-              </Link>
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-              {recentPosts.map((post) => (
-                <Link
-                  key={post._meta.path}
-                  to="/blog/$slug"
-                  params={{ slug: post._meta.path }}
-                  className="block"
-                >
-                  <Card className="hover:shadow-md transition-shadow">
-                    <CardHeader>
-                      <CardTitle className="text-base">{post.title}</CardTitle>
-                      <p className="text-xs text-muted-foreground">
-                        {new Date(post.date).toLocaleDateString('en-US', {
-                          year: 'numeric',
-                          month: 'long',
-                          day: 'numeric',
-                        })}
-                      </p>
-                    </CardHeader>
-                    <CardContent>
-                      <p className="text-sm text-muted-foreground">{post.summary}</p>
-                    </CardContent>
-                  </Card>
-                </Link>
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
-
-      {/* Footer CTA */}
+      
       <footer className="border-t border-border">
         <div className="max-w-5xl mx-auto px-4 py-10 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-muted-foreground">
